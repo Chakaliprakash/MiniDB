@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=190&color=0:111827,50:7c2d12,100:fb923c&text=MiniDB&fontColor=ffffff&fontSize=40&fontAlignY=42&desc=Java%2021%20%7C%20SQL%20Parser%20%7C%20Indexing&descAlignY=65&descSize=15" width="100%" alt="MiniDB banner"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=195&color=0:111827,50:7c2d12,100:fb923c&text=MiniDB&fontColor=ffffff&fontSize=40&fontAlignY=40&desc=In-Memory%20Relational%20Database%20%7C%20Java%2021&descAlignY=64&descSize=15" width="100%" alt="MiniDB banner"/>
 
-![Java%2021](https://img.shields.io/badge/Java%2021-Enabled-334155)
-![SQL%20Parser](https://img.shields.io/badge/SQL%20Parser-Project-0f766e)
-![In-Memory%20DB](https://img.shields.io/badge/In-Memory%20DB-Built%20with%20care-64748b)
-
-**A tiny in-memory relational database in Java.**
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-Custom%20Parser-336791?style=for-the-badge)
+![Indexing](https://img.shields.io/badge/Indexing-HashMap-64748b?style=for-the-badge)
 
 [Repository](https://github.com/Chakaliprakash/MiniDB) · [Issues](https://github.com/Chakaliprakash/MiniDB/issues)
 
