@@ -1,3 +1,19 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=venom&height=190&color=0:111827,50:7c2d12,100:fb923c&text=MiniDB&fontColor=ffffff&fontSize=40&fontAlignY=42&desc=Java%2021%20%7C%20SQL%20Parser%20%7C%20Indexing&descAlignY=65&descSize=15" width="100%" alt="MiniDB banner"/>
+
+![Java%2021](https://img.shields.io/badge/Java%2021-Enabled-334155)
+![SQL%20Parser](https://img.shields.io/badge/SQL%20Parser-Project-0f766e)
+![In-Memory%20DB](https://img.shields.io/badge/In-Memory%20DB-Built%20with%20care-64748b)
+
+**A tiny in-memory relational database in Java.**
+
+[Repository](https://github.com/Chakaliprakash/MiniDB) · [Issues](https://github.com/Chakaliprakash/MiniDB/issues)
+
+</div>
+
+---
+
 # MiniDB - In-Memory Relational DBMS in Java
 
 A lightweight in-memory relational database management system written in Java 21 from scratch. I built this project to understand how databases work under the hood — how SQL commands get parsed, how tables organize rows, how WHERE clauses evaluate conditions, and how primary key indexing improves query speed.
