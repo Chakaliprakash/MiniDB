@@ -14,22 +14,37 @@
 
 # MiniDB
 
-MiniDB is a lightweight in-memory relational database written in Java 21 for learning how database components work.
+MiniDB is a lightweight in-memory relational database implemented in Java 21. It demonstrates the main steps involved in parsing and executing a small SQL-like language.
 
 ## Features
 
-- Custom SQL tokenizer and parser.
-- Basic commands: `CREATE TABLE`, `INSERT INTO`, `SELECT`, and `DELETE`.
-- Support for `INT`, `STRING`, and `BOOLEAN` data types.
-- Primary-key lookup using a `HashMap` index.
+- Parse `CREATE TABLE`, `INSERT INTO`, `SELECT`, and `DELETE` statements.
+- Support `INT`, `STRING`, and `BOOLEAN` columns.
+- Evaluate simple comparison conditions in queries.
+- Store table rows in memory.
+- Use a `HashMap` index for primary-key lookup.
 
-## Purpose
+## Design
 
-The project explores SQL parsing, table storage, condition evaluation, and indexing without an external database engine.
+The code separates SQL parsing, command representation, table storage, row data, and query execution into individual classes.
 
-## Getting Started
+## Technology
 
-Use JDK 21 and review the source code for the main class and supported SQL syntax.
+- Java 21
+- Maven
+- Regular expressions and Java records/sealed interfaces
+
+## Build and Run
+
+Install JDK 21 and Maven, then run:
+
+```bash
+mvn compile exec:java
+```
+
+Enter SQL statements at the `minidb>` prompt. Use `exit` or `quit` to close the program.
+
+MiniDB is an educational in-memory implementation; data is not persisted after the process exits, and it does not support the full SQL standard.
 
 ## Author
 
